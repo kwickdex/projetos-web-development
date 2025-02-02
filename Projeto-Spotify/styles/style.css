@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --background-base: #121212;
+  --background-hightlight: #1f1f1f;
+  --background-press: #000;
+  --text-base-color: #fff;
+  --text-subdue: #b3b3b3;
+  --bright-accent: #1ed760;
+  --primary-font: "Plus Jakarta Sans", serif;
+}
+
+body{
+    background-color: var(--background-press);
+}
+
+#head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 5px 10px 5px;
+}
+
+#header {
+  background-color: var(--background-press);
+}
+
+#header-container-logo {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 2px;
+  width: 46px;
+  height: 46px;
+}
+
+#header-search-container {
+  display: flex;
+  text-align: center;
+}
+
+#header-search-container-input {
+  background-color: var(--background-hightlight);
+  background-image: url(../assets/lupa.png);
+  background-position: 10px 14px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 474px;
+  height: 48px;
+  border-radius: 20px;
+  border: none;
+  color: var(--text-base-color);
+  padding: 2px 0px 2px 50px;
+  margin-left: 30px;
+  font-family: var(--primary-font);
+}
+
+#header-search-container-input text {
+}
+
+#icon {
+  width: 32px;
+  height: 32px;
+  background-color: var(--background-hightlight);
+  border: var(--background-hightlight) solid;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+#header-search-container-input::after {
+  background-image: url(../assets/pngegg.png);
+}
+
+#header-container-button-premium {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 40px 0px 0px;
+  list-style-type: none;
+}
+
+.header-container-button-premium-buttons-white,
+.header-container-button-premium-buttons {
+    padding: 0px 0px 0px 30px;
+  text-decoration: none;
+}
+
+.header-container-button-premium-buttons {
+    color: var(--text-base-color);
+    font-family: var(--primary-font);
+}
+
+.header-container-button-premium-buttons-white {
+    margin: 0px 0px 0px 15px;
+    border: var(--text-base-color) 1px solid;
+    padding: 10px 20px 10px 18px;
+    border-radius: 30px;
+    color: var(--background-press);
+    background-color: var(--text-base-color);
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    background-image: linear-gradient(var(--background-base),var(--background-hightlight));
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 33% 66%;
+}
+
+.container-esquerda {
+    width: 700px;
+    height: 1000px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.container-direita{
+    width: 1600px;
+    height: 1000px;
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#container-direita-artistas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#artistas-populares{
+  color: var(--text-base-color);
+  font-size: 24px;
+  font-family: var(--primary-font);
+  margin: 20px 0px 0px 30px;
+}
+
+.artistas-icons{
+  display: block;
+  width: 100px;
+}
+
+#icon-artista{
+  margin: 30px 30px 10px 40px;
+  background-image: url(../assets/channels4_profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 300px;
+  width: 155px;
+  height: 155px;
+}
+
+.container-direita-artistas-artista{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+#artista-nome{
+  padding: 2px 0px 2px 40px;
+  color: var(--text-base-color);
+  font-family: var(--primary-font);
+  font-size: 18px;
+}
+
+#artista-cargo{
+  font-size: 16px;
+  color: var(--text-subdue);
+  font-family: var(--primary-font);
+  padding-top: 5px;
+  padding-left: 40px;
+}
