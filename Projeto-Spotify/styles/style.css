@@ -154,7 +154,6 @@ body {
 
 #icon-artista {
   margin: 30px 30px 10px 40px;
-  background-image: url(../assets/channels4_profile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 300px;
@@ -184,7 +183,6 @@ body {
 }
 
 #icon-album {
-  background-image: url(../assets/LeoFoguete.jpg);
   width: 155px;
   height: 155px;
   background-repeat: no-repeat;
