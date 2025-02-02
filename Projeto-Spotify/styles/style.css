@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
   margin: 0px;
@@ -15,8 +15,8 @@
   --primary-font: "Plus Jakarta Sans", serif;
 }
 
-body{
-    background-color: var(--background-press);
+body {
+  background-color: var(--background-press);
 }
 
 #head-container {
@@ -85,99 +85,208 @@ body{
 
 .header-container-button-premium-buttons-white,
 .header-container-button-premium-buttons {
-    padding: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 30px;
   text-decoration: none;
 }
 
 .header-container-button-premium-buttons {
-    color: var(--text-base-color);
-    font-family: var(--primary-font);
+  color: var(--text-base-color);
+  font-family: var(--primary-font);
 }
 
 .header-container-button-premium-buttons-white {
-    margin: 0px 0px 0px 15px;
-    border: var(--text-base-color) 1px solid;
-    padding: 10px 20px 10px 18px;
-    border-radius: 30px;
-    color: var(--background-press);
-    background-color: var(--text-base-color);
-    text-align: center;
-    font-family: var(--primary-font);
+  margin: 0px 0px 0px 15px;
+  border: var(--text-base-color) 1px solid;
+  padding: 10px 20px 10px 18px;
+  border-radius: 30px;
+  color: var(--background-press);
+  background-color: var(--text-base-color);
+  text-align: center;
+  font-family: var(--primary-font);
 }
 
-.main-container{
-    display: flex;
-    justify-content: space-between;
+.main-container {
+  display: flex;
+  justify-content: center;
 }
 
-.container{
-    background-image: linear-gradient(var(--background-base),var(--background-hightlight));
-    border-radius: 10px;
-    display: grid;
-    grid-template-rows: 33% 66%;
+.container {
+  background-image: linear-gradient(
+    var(--background-base),
+    var(--background-hightlight)
+  );
+  border-radius: 10px;
 }
 
 .container-esquerda {
-    width: 700px;
-    height: 1000px;
-    margin-left: 10px;
-    margin-right: 15px;
+  width: 33%;
+  height: 1000px;
+  margin-left: 10px;
+  margin-right: 15px;
 }
 
-.container-direita{
-    width: 1600px;
-    height: 1000px;
-    margin-right: 20px;
+.container-direita {
+  width: 66%;
+  height: 1000px;
+  margin-right: 20px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #container-direita-artistas {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-#artistas-populares{
+#artistas-populares {
   color: var(--text-base-color);
   font-size: 24px;
   font-family: var(--primary-font);
-  margin: 20px 0px 0px 30px;
+  margin: 25px 0px 0px 20px;
 }
 
-.artistas-icons{
+.artistas-icons {
   display: block;
   width: 100px;
 }
 
-#icon-artista{
+#icon-artista {
   margin: 30px 30px 10px 40px;
   background-image: url(../assets/channels4_profile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 300px;
-  width: 155px;
-  height: 155px;
+  width: 120px;
+  height: 120px;
 }
 
-.container-direita-artistas-artista{
+.container-direita-artistas-artista {
   display: flex;
   flex-direction: column;
   text-align: start;
 }
 
-#artista-nome{
+#artista-nome {
   padding: 2px 0px 2px 40px;
   color: var(--text-base-color);
   font-family: var(--primary-font);
   font-size: 18px;
 }
 
-#artista-cargo{
+#artista-cargo {
   font-size: 16px;
   color: var(--text-subdue);
   font-family: var(--primary-font);
   padding-top: 5px;
   padding-left: 40px;
+}
+
+#icon-album {
+  background-image: url(../assets/LeoFoguete.jpg);
+  width: 155px;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+#container-direito-albuns {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 20px 0px 20px;
+  justify-content: center;
+}
+
+#icon-album {
+  margin-left: 15px;
+}
+
+#nome-album {
+  margin-left: 15px;
+  color: var(--text-base-color);
+  font-family: var(--primary-font);
+  font-size: 18px;
+}
+
+#artista-album {
+  margin-left: 15px;
+  font-size: 16px;
+  color: var(--text-subdue);
+  font-family: var(--primary-font);
+}
+
+#icon-artista:hover {
+  padding: 1px;
+  -webkit-box-shadow: 0px 4px 31px 18px rgba(0, 0, 0, 0.89);
+  -moz-box-shadow: 0px 4px 31px 18px rgba(0, 0, 0, 0.89);
+  box-shadow: 0px 4px 31px 18px rgba(0, 0, 0, 0.89);
+}
+
+#icon-album:hover {
+  background-color: violet;
+  padding: 0.5px;
+  border: solid var(--background-base) 3px;
+  -webkit-box-shadow: 0px 4px 31px 18px rgba(0, 0, 0, 0.89);
+  -moz-box-shadow: 0px 4px 31px 18px rgba(0, 0, 0, 0.89);
+  box-shadow: 0px 4px 31px 18px rgba(0, 0, 0, 0.89);
+}
+
+#container-esquerda-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+#container-esquerda-titulo-biblioteca {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+#container-esquerda-titulo-biblioteca h2 {
+  padding-top: 9px;
+  padding-left: 10px;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  color: var(--text-base-color);
+}
+
+#sum-button-icon {
+  padding-top: 10px;
+}
+
+#container-esquerda-display {
+  font-family: var(--primary-font);
+  color: var(--text-base-color);
+  margin: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: var(--background-hightlight);
+}
+
+#container-esquerda-display h2{
+  font-size: 18px;
+}
+
+#container-esquerda-display p {
+  font-size: 14px;
+}
+
+#container-esquerda-display button {
+  padding: 10px;
+  border-radius: 20px;
+  color: var(--background-press);
+  border: none;
+}
+
+#container-esquerda-display h2,
+#container-esquerda-display p,
+#container-esquerda-display button {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

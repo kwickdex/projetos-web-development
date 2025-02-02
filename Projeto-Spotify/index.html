@@ -11,9 +11,15 @@
       <div id="head-container">
         <img id="header-container-logo" src="./assets/spotify.png" />
         <div id="header-search-container">
-            <a href="" id="header-search-container-button"><img id="icon" src="./assets/pngegg.png"> </a>
-           
-           <input type="search" id="header-search-container-input" placeholder="O que você quer ouvir?" />
+          <a href="" id="header-search-container-button"
+            ><img id="icon" src="./assets/pngegg.png" />
+          </a>
+
+          <input
+            type="search"
+            id="header-search-container-input"
+            placeholder="O que você quer ouvir?"
+          />
         </div>
         <div id="header-container-buttons">
           <ul id="header-container-button-premium">
@@ -49,69 +55,139 @@
       </div>
     </header>
     <main class="main-container">
-
-        <div class="container container-esquerda">
-
+      <div class="container container-esquerda">
+        <div id="container-esquerda-titulo">
+          <div id="container-esquerda-titulo-biblioteca">
+            <img src="./assets/biblioteca.png" style="width: 38px" />
+            <h2>Sua biblioteca</h2>
+          </div>
+          <input type="button" id="sum-button" style="display: none" />
+          <label for="sum-button">
+            <img
+              id="sum-button-icon"
+              src="./assets/icons8-soma-50.png"
+              style="width: 30px; height: 30px"
+            />
+          </label>
         </div>
-        <div class="container container-direita">
-            <h2 id="artistas-populares">Artistas Populares</h2>
-            <div>
-                <ul id="container-direita-artistas">
-                    <il class="container-direita-artistas-artista">
-                        <div class="container-direita-artistas-artista">
-                            <a href=""><div id="icon-artista"></div></a>
-                            <h2 id="artista-nome">xxx</h2>
-                            <p id="artista-cargo">Artista</p>
-                        </div>
-                    </il>
-                    <il class="container-direita-artistas-artista">
-                        <div class="container-direita-artistas-artista">
-                            <a href=""><div id="icon-artista"></div></a>
-                            <h2 id="artista-nome">xxx</h2>
-                            <p id="artista-cargo">Artista</p>
-                        </div>
-                    </il>
-                    <il class="container-direita-artistas-artista">
-                        <div class="container-direita-artistas-artista">
-                            <a href=""><div id="icon-artista"></div></a>
-                            <h2 id="artista-nome">xxx</h2>
-                            <p id="artista-cargo">Artista</p>
-                        </div>
-                    </il>
-                    <il >
-                        <div class="container-direita-artistas-artista">
-                            <a href=""><div id="icon-artista"></div></a>
-                            <h2 id="artista-nome">xxx</h2>
-                            <p id="artista-cargo">Artista</p>
-                        </div>
-                    </il>
-                    <il class="container-direita-artistas-artista">
-                        <div class="container-direita-artistas-artista">
-                            <a href=""><div id="icon-artista"></div></a>
-                            <h2 id="artista-nome">xxx</h2>
-                            <p id="artista-cargo">Artista</p>
-                        </div>
-                    </il>
-                    <il class="container-direita-artistas-artista">
-                        <div class="container-direita-artistas-artista">
-                            <a href=""><div id="icon-artista"></div></a>
-                            <h2 id="artista-nome">xxx</h2>
-                            <p id="artista-cargo">Artista</p>
-                        </div>
-                    </il>
-                </ul>
-                <h2 id="artistas-populares">Singles e álbuns que todo mundo gosta</h2>
-                <div>
-
-                </div>
-
-            </div>
-
-            <div>
-
-            </div>
-
+        <div id="container-esquerda-display">
+          <ul id="container-esquerda-display-lista">
+            <il>
+              <h2>Crie sua primeira playlist</h2>
+            </il>
+            <il>
+              <p>É fácil, vamos te ajudar!</p>
+            </il>
+            <il>
+              <button>Criar Playlist</button>
+            </il>
+          </ul>
         </div>
+        <div id="container-esquerda-display">
+          <ul id="container-esquerda-display-lista">
+            <il>
+              <h2>Que tal seguir um podcast novo</h2>
+            </il>
+            <il>
+              <p>Avisaremos você sobre novos episódios.</p>
+            </il>
+            <il>
+              <button>Explore Podcasts</button>
+            </il>
+          </ul>
+        </div>
+      </div>
+      <div class="container container-direita">
+        <h2 id="artistas-populares">Artistas Populares</h2>
+        <div>
+          <ul id="container-direita-artistas">
+            <il class="container-direita-artistas-artista">
+              <div class="container-direita-artistas-artista">
+                <a href=""><div id="icon-artista"></div></a>
+                <h2 id="artista-nome">xxx</h2>
+                <p id="artista-cargo">Artista</p>
+              </div>
+            </il>
+            <il class="container-direita-artistas-artista">
+              <div class="container-direita-artistas-artista">
+                <a href=""><div id="icon-artista"></div></a>
+                <h2 id="artista-nome">xxx</h2>
+                <p id="artista-cargo">Artista</p>
+              </div>
+            </il>
+            <il class="container-direita-artistas-artista">
+              <div class="container-direita-artistas-artista">
+                <a href=""><div id="icon-artista"></div></a>
+                <h2 id="artista-nome">xxx</h2>
+                <p id="artista-cargo">Artista</p>
+              </div>
+            </il>
+            <il>
+              <div class="container-direita-artistas-artista">
+                <a href=""><div id="icon-artista"></div></a>
+                <h2 id="artista-nome">xxx</h2>
+                <p id="artista-cargo">Artista</p>
+              </div>
+            </il>
+            <il class="container-direita-artistas-artista">
+              <div class="container-direita-artistas-artista">
+                <a href=""><div id="icon-artista"></div></a>
+                <h2 id="artista-nome">xxx</h2>
+                <p id="artista-cargo">Artista</p>
+              </div>
+            </il>
+            <il class="container-direita-artistas-artista">
+              <div class="container-direita-artistas-artista">
+                <a href=""><div id="icon-artista"></div></a>
+                <h2 id="artista-nome">xxx</h2>
+                <p id="artista-cargo">Artista</p>
+              </div>
+            </il>
+          </ul>
+          <h2 id="artistas-populares">Singles e álbuns que todo mundo gosta</h2>
+          <div>
+            <ul id="container-direito-albuns">
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+              <il>
+                <a href=""><div id="icon-album"></div></a>
+                <h2 id="nome-album">xxx</h2>
+                <p id="artista-album">Artista</p>
+              </il>
+            </ul>
+          </div>
+        </div>
+
+        <div></div>
+      </div>
     </main>
     <script src="./scripts/script.js"></script>
   </body>
